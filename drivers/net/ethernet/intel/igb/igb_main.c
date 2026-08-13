@@ -68,6 +68,7 @@ static const struct pci_device_id igb_pci_tbl[] = {
 	{ PCI_VDEVICE(INTEL, E1000_DEV_ID_I210_FIBER), .driver_data = board_82575 },
 	{ PCI_VDEVICE(INTEL, E1000_DEV_ID_I210_SERDES), .driver_data = board_82575 },
 	{ PCI_VDEVICE(INTEL, E1000_DEV_ID_I210_SGMII), .driver_data = board_82575 },
+	{ PCI_VDEVICE(INTEL, E1000_DEV_ID_I210_UNPROGRAMMED), .driver_data = board_82575 },
 	{ PCI_VDEVICE(INTEL, E1000_DEV_ID_I210_COPPER_FLASHLESS), .driver_data = board_82575 },
 	{ PCI_VDEVICE(INTEL, E1000_DEV_ID_I210_SERDES_FLASHLESS), .driver_data = board_82575 },
 	{ PCI_VDEVICE(INTEL, E1000_DEV_ID_I350_COPPER), .driver_data = board_82575 },
